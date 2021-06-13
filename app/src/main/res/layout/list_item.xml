@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="4dp"
+        app:cardCornerRadius="8dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="15dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+                    android:id="@+id/list_item_tv_title"
+                    android:text="asdsa"
+                    android:textColor="#445e76"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    android:paddingLeft="10sp"
+                    android:paddingTop="10sp"
+                    android:layout_weight="1"
+                    android:paddingBottom="5sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_baseline_back_hand_24"
+                    android:paddingLeft="5sp"
+                    android:paddingRight="10sp" />
+                <TextView
+                    android:id="@+id/list_item_vote_number"
+                    android:text="5"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:paddingRight="10sp"
+                    android:paddingTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:text="In Progress"
+                android:paddingLeft="10sp"
+                android:paddingBottom="10sp"
+                android:textColor="#ff4d4c"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+                    android:drawableLeft="@drawable/ic_baseline_pin_drop_24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5sp"
+                    android:paddingRight="10sp"/>
+
+                <TextView
+                    android:id="@+id/list_item_location"
+                    android:text="Ankara - Kecioren"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:drawableLeft="@drawable/ic_baseline_category_24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8sp"
+                    android:paddingRight="10sp"/>
+
+                <TextView
+                    android:id="@+id/list_item_category"
+                    android:text="Category"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10sp"
+                android:paddingTop="5sp">
+
+                <TextView
+                    android:drawableLeft="@drawable/ic_baseline_brightness_1_24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8sp"
+                    android:paddingRight="10sp"/>
+
+                <TextView
+                    android:id="@+id/list_item_time"
+                    android:text="10/06/2021 15:49:16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+
+</RelativeLayout>
